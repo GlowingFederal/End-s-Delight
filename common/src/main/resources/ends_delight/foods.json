@@ -1,0 +1,631 @@
+[
+  {
+    "id": "chorus_fruit_grain",
+    "kind": "food",
+    "nutrition": 1,
+    "saturation": 0.6,
+    "fast": true
+  },
+  {
+    "id": "chorus_succulent",
+    "kind": "plant",
+    "nutrition": 2,
+    "saturation": 0.8,
+    "fast": true
+  },
+  {
+    "id": "liquid_dragon_egg",
+    "kind": "food",
+    "nutrition": 14,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "strength",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "blindness",
+        "duration": 400,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "fried_dragon_egg",
+    "kind": "food",
+    "nutrition": 20,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 6000,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "strength",
+        "duration": 6000,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 6000,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "shulker_meat",
+    "kind": "food",
+    "nutrition": 4,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "levitation",
+        "duration": 80,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "shulker_meat_slice",
+    "kind": "food",
+    "nutrition": 2,
+    "saturation": 0.6,
+    "fast": true,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "levitation",
+        "duration": 40,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "roasted_shulker_meat",
+    "kind": "food",
+    "nutrition": 6,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "levitation",
+        "duration": 80,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "roasted_shulker_meat_slice",
+    "kind": "food",
+    "nutrition": 3,
+    "saturation": 0.8,
+    "fast": true,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "levitation",
+        "duration": 40,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "dragon_leg",
+    "kind": "food",
+    "nutrition": 8,
+    "saturation": 0.5
+  },
+  {
+    "id": "smoked_dragon_leg",
+    "kind": "food",
+    "nutrition": 14,
+    "saturation": 0.5,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 200,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "raw_dragon_meat",
+    "kind": "food",
+    "nutrition": 8,
+    "saturation": 0.6
+  },
+  {
+    "id": "roasted_dragon_meat",
+    "kind": "food",
+    "nutrition": 15,
+    "saturation": 0.6,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 300,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "raw_dragon_meat_cuts",
+    "kind": "food",
+    "nutrition": 3,
+    "saturation": 0.6,
+    "fast": true
+  },
+  {
+    "id": "roasted_dragon_meat_cuts",
+    "kind": "food",
+    "nutrition": 6,
+    "saturation": 0.6,
+    "fast": true,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 100,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "raw_ender_mite_meat",
+    "kind": "food",
+    "nutrition": 3,
+    "saturation": 0.6
+  },
+  {
+    "id": "dried_endermite_meat",
+    "kind": "food",
+    "nutrition": 5,
+    "saturation": 0.6
+  },
+  {
+    "id": "ender_sauce",
+    "kind": "food",
+    "nutrition": 3,
+    "saturation": 0.5,
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "stuffed_rice_cake",
+    "kind": "food",
+    "nutrition": 6,
+    "saturation": 0.7,
+    "alwaysEat": true,
+    "teleport": "sneak"
+  },
+  {
+    "id": "chorus_flower_pie",
+    "kind": "food",
+    "nutrition": 4,
+    "saturation": 0.6,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 100,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "teleport": "sneak"
+  },
+  {
+    "id": "chorus_fruit_wine",
+    "kind": "food",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "alwaysEat": true,
+    "container": "minecraft:glass_bottle",
+    "stackSize": 16,
+    "teleport": "always",
+    "action": "cocoa"
+  },
+  {
+    "id": "chorus_fruit_milk_tea",
+    "kind": "food",
+    "nutrition": 6,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "container": "minecraft:glass_bottle",
+    "stackSize": 16,
+    "teleport": "sneak",
+    "action": "drink"
+  },
+  {
+    "id": "bubble_tea",
+    "kind": "food",
+    "nutrition": 8,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "container": "minecraft:glass_bottle",
+    "stackSize": 16,
+    "teleport": "sneak",
+    "action": "drink"
+  },
+  {
+    "id": "dragon_breath_soda",
+    "kind": "food",
+    "nutrition": 0,
+    "saturation": 0,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "strength",
+        "duration": 1200,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:glass_bottle",
+    "stackSize": 16,
+    "action": "drink"
+  },
+  {
+    "id": "chorus_flower_tea",
+    "kind": "food",
+    "nutrition": 0,
+    "saturation": 0.0,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 100,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 400,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:glass_bottle",
+    "stackSize": 16,
+    "teleport": "sneak",
+    "action": "drink"
+  },
+  {
+    "id": "chorus_cookie",
+    "kind": "food",
+    "nutrition": 2,
+    "saturation": 0.6,
+    "teleport": "sneak"
+  },
+  {
+    "id": "chorus_fruit_popsicle",
+    "kind": "food",
+    "nutrition": 3,
+    "saturation": 0.2,
+    "alwaysEat": true,
+    "stackSize": 16,
+    "teleport": "always"
+  },
+  {
+    "id": "chorus_fruit_pie_slice",
+    "kind": "food",
+    "nutrition": 3,
+    "saturation": 0.3,
+    "fast": true,
+    "effects": [
+      {
+        "effect": "speed",
+        "duration": 600,
+        "chance": 1
+      }
+    ],
+    "teleport": "sneak"
+  },
+  {
+    "id": "ender_congee",
+    "kind": "food",
+    "nutrition": 10,
+    "saturation": 0.6,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 300,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 900,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "health_boost",
+        "duration": 900,
+        "amplifier": 2,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "dragon_breath_and_chorus_soup",
+    "kind": "food",
+    "nutrition": 16,
+    "saturation": 0.6,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 400,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "strength",
+        "duration": 1200,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 1200,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "comfort",
+        "duration": 3600,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16,
+    "teleport": "always",
+    "action": "cocoa"
+  },
+  {
+    "id": "stir_fried_shulker_meat",
+    "kind": "food",
+    "nutrition": 10,
+    "saturation": 0.8,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "levitation",
+        "duration": 100,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "roasted_dragon_steak",
+    "kind": "food",
+    "nutrition": 18,
+    "saturation": 0.5,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 500,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "nourishment",
+        "duration": 6000,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "end_mixed_salad",
+    "kind": "food",
+    "nutrition": 12,
+    "saturation": 0.6,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 120,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "speed",
+        "duration": 200,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "assorted_salad",
+    "kind": "food",
+    "nutrition": 18,
+    "saturation": 0.5,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 200,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "speed",
+        "duration": 500,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "strength",
+        "duration": 500,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "ends_delight:dragon_egg_shell",
+    "stackSize": 16
+  },
+  {
+    "id": "end_barbecue_stick",
+    "kind": "food",
+    "nutrition": 10,
+    "saturation": 0.7,
+    "alwaysEat": true,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 100,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "steamed_dragon_egg",
+    "kind": "food",
+    "nutrition": 12,
+    "saturation": 0.6,
+    "effects": [
+      {
+        "effect": "absorption",
+        "duration": 1500,
+        "amplifier": 2,
+        "chance": 1.0
+      },
+      {
+        "effect": "nourishment",
+        "duration": 6000,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "regeneration",
+        "duration": 1500,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "strength",
+        "duration": 1500,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "resistance",
+        "duration": 1500,
+        "amplifier": 1,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "dragon_meat_stew",
+    "kind": "food",
+    "nutrition": 10,
+    "saturation": 0.6,
+    "effects": [
+      {
+        "effect": "absorption",
+        "duration": 1500,
+        "amplifier": 2,
+        "chance": 1.0
+      },
+      {
+        "effect": "regeneration",
+        "duration": 300,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "strength",
+        "duration": 600,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "nourishment",
+        "duration": 6000,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  },
+  {
+    "id": "grilled_shulker",
+    "kind": "food",
+    "nutrition": 8,
+    "saturation": 0.6,
+    "effects": [
+      {
+        "effect": "regeneration",
+        "duration": 100,
+        "amplifier": 0,
+        "chance": 1.0
+      },
+      {
+        "effect": "levitation",
+        "duration": 40,
+        "amplifier": 1,
+        "chance": 1.0
+      },
+      {
+        "effect": "nourishment",
+        "duration": 6000,
+        "amplifier": 0,
+        "chance": 1.0
+      }
+    ],
+    "container": "minecraft:bowl",
+    "stackSize": 16
+  }
+]

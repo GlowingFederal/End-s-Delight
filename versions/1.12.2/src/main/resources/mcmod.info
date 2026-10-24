@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "ends_delight",
+    "name": "End's Delight Legacy",
+    "description": "End exploration and cooking for Farmer's Delight Legacy.",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftTarget}",
+    "authorList": [
+      "FoggyHillside",
+      "PExPE3",
+      "SKZGx"
+    ],
+    "dependencies": [
+      "farmersdelight"
+    ]
+  }
+]
