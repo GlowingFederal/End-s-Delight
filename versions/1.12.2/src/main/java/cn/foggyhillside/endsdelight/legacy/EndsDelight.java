@@ -43,7 +43,8 @@ public final class EndsDelight {
  @Mod.EventHandler public void init(FMLInitializationEvent event) {
   vectorwing.farmersdelight.legacy.api.SourceRecipes.addCatalog("ends_delight",EndsDelight.class,"/ends_delight/source_recipes.json");
   vectorwing.farmersdelight.legacy.SourceTags.addCatalog(EndsDelight.class,"/ends_delight/source_tags.json");
-  java.util.List<String> roots=new java.util.ArrayList<String>(java.util.Arrays.asList("ends_delight:dragon_tooth","ends_delight:dragon_leg","ends_delight:raw_dragon_meat"));roots.addAll(java.util.Arrays.asList("ends_delight:shulker_meat","ends_delight:raw_ender_mite_meat","ends_delight:chorus_succulent"));
+  java.util.List<String> roots=new java.util.ArrayList<String>();
+  if(mobDrops) roots.addAll(java.util.Arrays.asList("ends_delight:dragon_tooth","ends_delight:dragon_leg","ends_delight:raw_dragon_meat"));if(mobDrops) roots.addAll(java.util.Arrays.asList("ends_delight:shulker_meat","ends_delight:raw_ender_mite_meat"));if(generation) roots.add("ends_delight:chorus_succulent");
   vectorwing.farmersdelight.legacy.AddonRecipes.register("ends_delight",roots.toArray(new String[roots.size()]));
  }
  private static void add(String id,Item item) { item.setTranslationKey("ends_delight."+id).setCreativeTab(Content.TAB).setRegistryName("ends_delight",id);GameRegistry.findRegistry(Item.class).register(item);ITEMS.put(id,item); }

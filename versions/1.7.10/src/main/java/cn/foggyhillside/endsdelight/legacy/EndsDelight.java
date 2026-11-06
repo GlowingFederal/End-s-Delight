@@ -43,7 +43,8 @@ public final class EndsDelight {
  @Mod.EventHandler public void init(FMLInitializationEvent event) {
   vectorwing.farmersdelight.legacy.api.SourceRecipes.addCatalog("ends_delight",EndsDelight.class,"/ends_delight/source_recipes.json");
   vectorwing.farmersdelight.legacy.SourceTags.addCatalog(EndsDelight.class,"/ends_delight/source_tags.json");
-  java.util.List<String> roots=new java.util.ArrayList<String>(java.util.Arrays.asList("ends_delight:dragon_tooth","ends_delight:dragon_leg","ends_delight:raw_dragon_meat"));
+  java.util.List<String> roots=new java.util.ArrayList<String>();
+  if(mobDrops) roots.addAll(java.util.Arrays.asList("ends_delight:dragon_tooth","ends_delight:dragon_leg","ends_delight:raw_dragon_meat"));
   if(mobDrops && vectorwing.farmersdelight.legacy.UABCompatibility.mob("Shulker")) roots.add("ends_delight:shulker_meat");
   if(mobDrops && vectorwing.farmersdelight.legacy.UABCompatibility.mob("Endermite")) roots.add("ends_delight:raw_ender_mite_meat");
   if(generation && vectorwing.farmersdelight.legacy.UABCompatibility.outerEnd()) {

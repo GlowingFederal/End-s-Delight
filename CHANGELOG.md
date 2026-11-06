@@ -12,3 +12,8 @@
 
 - Use enabled UAB chorus, purpur, fungi, shells and dragon-breath ingredients in original recipes. Add original knife-qualified shulker/endermite meat drops and bounded succulent patches on UAB outer End islands; retain missing campfire requirements.
 - Follow the shared compatibility settings in farmersdelight.cfg, existing addon settings and UAB feature availability. Keep UAB optional and preserve saved registrations and other Minecraft implementations.
+
+2026-11-02 01:08 — Synchronize recipe acquisition and document scripting
+
+- Keep dragon, shulker and endermite recipe roots consistent with the addon drop switch, and native 1.12.2 succulent roots consistent with generation settings. Enabled UAB campfires restore the original End-stove recipe through the shared resolver.
+- Document optional native recipe scripting for both supported targets; preserve original item identities, processing and external tea-recipe prerequisites.
