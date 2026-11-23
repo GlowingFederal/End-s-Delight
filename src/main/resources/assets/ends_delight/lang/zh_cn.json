@@ -1,4 +1,4 @@
-﻿{
+{
   "itemGroup.ends_delight": "末地乐事",
   "item.ends_delight.ender_pearl_grain": "末影珍珠粒",
   "item.ends_delight.chorus_fruit_grain": "紫颂果粒",
@@ -50,6 +50,7 @@
   "block.ends_delight.grilled_shulker_block": "炭烧潜影贝",
   "block.ends_delight.chorus_fruit_pie": "紫颂果派",
   "block.ends_delight.chorus_succulent": "紫颂多肉植物",
+  "item.ends_delight.chorus_succulent": "紫颂多肉植物",
   "block.ends_delight.steamed_dragon_egg_block": "龙蛋羹",
   "block.ends_delight.dragon_meat_stew_block": "龙肉炖",
   "block.ends_delight.end_stove": "末地炉灶",

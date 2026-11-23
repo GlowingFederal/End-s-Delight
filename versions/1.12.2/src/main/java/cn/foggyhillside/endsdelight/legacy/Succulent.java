@@ -5,7 +5,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
 public final class Succulent extends net.minecraft.block.BlockBush implements net.minecraft.block.IGrowable {
  public static final net.minecraft.block.properties.PropertyInteger COUNT=net.minecraft.block.properties.PropertyInteger.create("succulent",1,3);
- public Succulent() { setHardness(0);setDefaultState(blockState.getBaseState().withProperty(COUNT,1)); }
+ public Succulent() { setHardness(0);setSoundType(net.minecraft.block.SoundType.PLANT);setDefaultState(blockState.getBaseState().withProperty(COUNT,1)); }
  protected net.minecraft.block.state.BlockStateContainer createBlockState() { return new net.minecraft.block.state.BlockStateContainer(this,COUNT); }
  public IBlockState getStateFromMeta(int meta) { return getDefaultState().withProperty(COUNT,1+Math.min(2,meta)); }
  public int getMetaFromState(IBlockState state) { return state.getValue(COUNT)-1; }

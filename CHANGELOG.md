@@ -17,3 +17,7 @@
 
 - Keep dragon, shulker and endermite recipe roots consistent with the addon drop switch, and native 1.12.2 succulent roots consistent with generation settings. Enabled UAB campfires restore the original End-stove recipe through the shared resolver.
 - Document optional native recipe scripting for both supported targets; preserve original item identities, processing and external tea-recipe prerequisites.
+
+2026-11-12 14:05 — Increment patch version for release packaging
+
+- Advance the mod patch version by 0.0.1 and refresh matching native artifact and mod metadata versions.

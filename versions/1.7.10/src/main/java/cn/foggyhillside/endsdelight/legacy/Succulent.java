@@ -1,6 +1,6 @@
 package cn.foggyhillside.endsdelight.legacy;
 public final class Succulent extends net.minecraft.block.BlockBush implements net.minecraft.block.IGrowable {
- public Succulent() { setHardness(0);setLightLevel(3F/15); }
+ public Succulent() { setHardness(0);setStepSound(soundTypeGrass);setLightLevel(3F/15); }
  public int getRenderType() { return vectorwing.farmersdelight.legacy.Foundation.proxy.modelRenderId(); }
  protected boolean canPlaceBlockOn(net.minecraft.block.Block block) { return block.getMaterial().isSolid(); }
  public boolean canBlockStay(net.minecraft.world.World world,int x,int y,int z) { return world.getBlock(x,y-1,z).getMaterial().isSolid(); }
