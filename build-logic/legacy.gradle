@@ -101,6 +101,7 @@ processResources {
    if(path.startsWith('block/') || minecraftTarget=='1.12.2') writeJson('assets/ends_delight/models/'+path,json)
   }
   if(minecraftTarget=='1.12.2') states.each { path,json ->
+   if (json.variants.containsKey('')) json.variants.normal = json.variants.remove('')
    json.variants.values().each { v -> v.model=v.model.replace('ends_delight:block/','ends_delight:') }
    writeJson('assets/ends_delight/blockstates/'+path,json)
   }

@@ -21,3 +21,8 @@
 2026-11-12 14:05 — Increment patch version for release packaging
 
 - Advance the mod patch version by 0.0.1 and refresh matching native artifact and mod metadata versions.
+
+2026-11-24 23:41 — Restore 1.12.2 names and chorus fruit crate rendering
+
+- Declare resource-pack format 3 so Forge loads the generated lowercase language files. Convert the crate's stateless model variant to the Forge 1.12.2 key so the placed crate and its particles use the correct textures.
+- Give the 1.7.10 chorus fruit crate its original top and bottom textures.
